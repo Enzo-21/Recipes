@@ -1,0 +1,18 @@
+.container {
+    background-color: white;
+    margin: auto 2rem;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    -webkit-box-shadow: 0px 7px 82px 10px rgba(245,120,61,1);
+    -moz-box-shadow: 0px 7px 82px 10px rgba(245,120,61,1);
+    box-shadow: 0px 7px 82px 10px rgba(245,120,61,1);
+    border-radius: 1rem;
+}
+
+@media (min-width: 700px) {
+    .container {
+        max-width: 33%;
+        margin: 25vh auto;
+    }
+}
